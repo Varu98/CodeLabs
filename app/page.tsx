@@ -1,10 +1,12 @@
 "use client";
-import { Box, Text } from "@chakra-ui/react";
+import { Text, VStack } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <Box>
-      <Text color={"red.300"}>Hello</Text>
-    </Box>
+    <VStack>
+      <Text fontSize={"5xl"} color={"purple.300"}>
+        🧑‍💻 Code Labs
+      </Text>
+    </VStack>
   );
 }
